@@ -28,6 +28,7 @@ namespace BasicCalculator
             array.Add("*");
             array.Add("/");
 
+
             foreach (string op in array)
             {
                 cbOperator.Items.Add(op);
